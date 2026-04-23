@@ -12,6 +12,8 @@ and this project adheres to
 - stdlib: Change `pcomm` to an alias of task.real_parent.comm instead of task.group_leader.comm.
   - [#5132](https://github.com/bpftrace/bpftrace/pull/5132)
 #### Added
+- Add urgent ringbuf to handle async actions clear, zero and runtime errors
+  - [#5114](https://github.com/bpftrace/bpftrace/issues/5114)
 - stdlib: add `leader_{tid,comm}` to retrieve the thread group leader.
   - [#5132](https://github.com/bpftrace/bpftrace/pull/5132)
 - stdlib: add signal_name().
